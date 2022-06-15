@@ -80,7 +80,7 @@ public class Calc {
     /* преобразуем результат в римское число если оно не отрицательное
      * и меньше 100 - максимальное значение для наших условий*/
     static String convert(int number) {
-        if (number < 0 || number > 100) {
+        if (number < 1 || number > 100) {
             return "Это число не может быть преобразовано";
         }
         String romanOnes = romanDigit(number % 10, "I", "V", "X");
@@ -119,6 +119,6 @@ public class Calc {
                     break;
             }
         }
-        return "0";
+        return "";
     }
 }
