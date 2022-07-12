@@ -1,6 +1,3 @@
-package Modul_1_2;/* Проверка: является ли число степенью двойки?
- * двоичный логорифм */
-
 public class PowerOfTwo1 {
 
 public static double isPowerOfTwo(int value){
@@ -18,7 +15,7 @@ public static double isPowerOfTwo(int value){
 
     public static void main(String[] args) {
 
-        isPowerOfTwo(0);
+        isPowerOfTwo(-128);
 
     }
 }

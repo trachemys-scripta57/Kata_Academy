@@ -26,4 +26,19 @@ public class arraysMerge2 {
         int[] a3 = mergeArrays(a1, a2);
         System.out.println(Arrays.toString(a3));
     }
+
+    public static class Boo {
+
+        public static void main(String[] args) throws Exception {
+            System.out.println(prov(false, false));
+            System.out.println(prov(true, false));
+            System.out.println(prov(false, true));
+            System.out.println(prov(true, true));
+        }
+
+        static boolean prov(boolean x, boolean y) {
+            boolean z = y & x;  // Тут менять логический оператор.
+            return z;
+        }
+    }
 }

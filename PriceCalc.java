@@ -1,6 +1,3 @@
-package Modul_1_2;/* Расчёт стоимости покупки. Сигнатура
-* priceCalculator (double price, int count)*/
-
 import java.util.Scanner;
 
 public class PriceCalc {

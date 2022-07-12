@@ -9,8 +9,7 @@ public class arraysStringBuilder2 {
             for (int z = 0; z < textLines.length; z++) {
                 String string = textLines[z];
                 if (string.startsWith(role + ":")) {
-                    String string1 = string.replaceFirst(role + ":", z + 1 + ")");
-                    stringBuilderOut.append(string1).append('\n');
+                    stringBuilderOut.append(string.replaceFirst(role + ":", z + 1 + ")")).append(":\n");
                 }
             }
             stringBuilderOut.append('\n');

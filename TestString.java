@@ -1,5 +1,3 @@
-package Modul_1_2;
-
 /*выбрать выражения дающие строку А12*/
 public class TestString {
     public static void main(String[] args) {

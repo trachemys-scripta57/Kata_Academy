@@ -3,7 +3,6 @@
  * - Учитывать только буквы и цифры (ASCII);
  * - Пробелы, знаки препинания - игнорировать;
  * - Удалить из строки все символы не ASCII.*/
-package Modul_1_2;
 
 import java.util.Scanner;
 import java.util.regex.*;

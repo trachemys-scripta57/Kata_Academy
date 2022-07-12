@@ -1,8 +1,6 @@
 
 //корректно считает до n=12 для int, n=20 для long
 
-package Bambuk.Modul_1_2;
-
 public class FactorialRecursion {
     private long factorial(int n) {
         long result = 1;

@@ -1,5 +1,3 @@
-package Modul_1_2;
-
 public class simplePriceCalc {
     public double priceCalculator(double price, int count){
         return price*count;

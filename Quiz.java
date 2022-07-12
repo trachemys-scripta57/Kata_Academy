@@ -1,5 +1,3 @@
-package Modul_1_2;
-
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 

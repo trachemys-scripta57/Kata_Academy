@@ -1,7 +1,5 @@
 //https://javarush.ru/groups/posts/1895-rekursija-v-java
 
-package Bambuk.Modul_1_2;
-
 public class FactorialInt {
 
     public static int factorial(int value) {

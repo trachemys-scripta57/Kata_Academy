@@ -1,5 +1,3 @@
-package Bambuk.Modul_1_2;
-
 public class DebugStepIntoTest {
 
     public static void main(String[] args) {

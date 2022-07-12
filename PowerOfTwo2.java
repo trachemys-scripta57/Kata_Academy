@@ -1,5 +1,3 @@
-package Modul_1_2;
-
 public class PowerOfTwo2 {
     public static boolean isPowerOfTwo(int value) {
         boolean q;
